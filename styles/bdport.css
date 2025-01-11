@@ -1,0 +1,72 @@
+
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  /* shared style */
+
+
+  .sky-1{
+    color: #0E0E0E;
+  }
+  .sky-2{
+    color: rgb(14, 14, 14, 50%);
+  }
+  .btn-1{
+    font-weight: 600px;
+    color: #006A50;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-color: #006A50;
+    opacity: 100%;
+    border-radius: 8px
+  }
+  .btn-1:hover{
+    color: aquamarine;
+  }
+  .btn-2 {
+    font-weight: 600px;
+    color: #ffffff;
+    background-color: #006A50;
+    font-size: 18px;
+    padding: 17px 34px;
+    opacity: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 160px;
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 32px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;  
+}
+nav li a {
+    text-decoration: none;
+}
+
+/* banner styles */
+.banner-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner-text{
+    font-size: 56px;
+    font-weight: 700;
+}
+
