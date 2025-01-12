@@ -129,35 +129,64 @@ nav li a {
 }
 
 /* main styles */
-main{
+
+/* main{
   max-width: 1280px;
-}
+} */
 
 /* skills section */
 
 .skills{
   width: 1440px;
   height: 477px;
-  margin: 0 160px;
+  margin: 80px 160px;
 }
 
 .skills-container{
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  padding: 32px;
+  margin-bottom: 80px;
 }
-
 
 .second-bg{
   background-color: rgb(84, 144, 245, 20%);
   padding: 32px;
+  border-radius: 16px;
 }
 .third-bg{
   background-color: rgb(198, 228, 214, 100%);
   padding: 32px;
+  border-radius: 16px;
 }
 .forth-bg{
   background-color: rgb(247, 235, 207, 100%);
   padding: 32px;
+  border-radius: 16px;
 }
+.challage-1{
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  opacity: 100%;
+  border-radius: 16px;
+  background-position: top left;
+}
+.challeng-description{
+  font-size: 16px;
+  color: rgb(14,, 14, 14, 80%);
+  padding: 48px 24px 0px 24px;
+}
+.challeng-title{
+  font-size: 20px;
+  font-weight: 600px;
+  color: rgb(14,, 14, 14, 80%);
+  padding: 12px 0px 0px 24px;
+}
+.challeng-desgnation{
+  font-size: 16px;
+  color: rgb(14, 14, 14, 60%);
+  padding: 0px 0px 48px 24px;
+}
+
+
